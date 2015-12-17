@@ -3,6 +3,10 @@
 	src: url('../fonts/lato_regular.ttf');
 }
 
+#music {
+	position: absolute;
+}
+
 html,
 body {
 	height: 100%;
