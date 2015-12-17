@@ -603,22 +603,22 @@ img {
 
 @keyframes long_rope {
     0% {
-		height: 50px;
+		height: 30px;
     }
     75% {
-		height: 100px;
+		height: 50px;
     }
     25% {
 		height: 20px;
-    }
+    } 
 }
 
 @-webkit-keyframes long_rope {
     0% {
-		height: 50px;
+		height: 30px;
     }
     75% {
-		height: 100px;
+		height: 50px;
     }
     25% {
 		height: 20px;
@@ -701,7 +701,7 @@ img {
     width: 45px;
     height: 150px;
     position: absolute;
-    left: 18vw;
+    left: 13vw;
     bottom: 100px;
     z-index: -1;
 }
@@ -830,14 +830,14 @@ img {
 	.christmas_msg_3 p:nth-child(3) {
 		font-size: 44px;
 	}
-	#rigovather {
-		margin-left: 15vw;
-	}
 }
 
 @media (max-width: 990px) {
 	#vather .chat_box {
 		right: 0vw;
 		width: 60%;
+	}
+	#vather:after {
+	    left: 130px;
 	}
 }
