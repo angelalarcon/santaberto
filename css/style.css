@@ -841,3 +841,11 @@ img {
 	    left: 130px;
 	}
 }
+
+@media (max-height: 700px) {
+	#vather .chat_box {
+	    top: -6vw;
+	    width: 40vw;
+	    right: 13vw;
+	}
+}
